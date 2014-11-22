@@ -33,7 +33,7 @@ makeCacheMatrix <- function(x = matrix()) {
     getinv_matrix <- function() {
         inv_m
     }
-    ## a list of 4 matrix object methods is published 
+    ## a list of 4 matrix object methods is published/returned 
     list(setmat = set_matrix, getmat = get_matrix,
          setinv = setinv_matrix,
          getinv = getinv_matrix)
