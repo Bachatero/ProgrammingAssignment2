@@ -9,7 +9,7 @@
 ## 
 
 
-## makeCacheMatrix function takes a matrix as its input parameter(an inverible matrix is assumed), 
+## makeCacheMatrix function takes a matrix as its input parameter(an invertible matrix is assumed), 
 ## creates a matrix object and simply defines object methods for matrix object manipulation.
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -33,7 +33,7 @@ makeCacheMatrix <- function(x = matrix()) {
     getinv_matrix <- function() {
         inv_m
     }
-    ## 4 matrix object methods are published 
+    ## a list of 4 matrix object methods is published 
     list(setmat = set_matrix, getmat = get_matrix,
          setinv = setinv_matrix,
          getinv = getinv_matrix)
