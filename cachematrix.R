@@ -1,3 +1,5 @@
+## R programming @ Coursera.org
+##
 ## A matrix inverse of an invertible matrix is calculated and stored in memory for a subsequent 
 ## faster access to its value. 
 ##
@@ -33,7 +35,7 @@ makeCacheMatrix <- function(x = matrix()) {
     getinv_matrix <- function() {
         inv_m
     }
-    ## a list of 4 matrix object methods is published/returned 
+    ## a list of 4 matrix object methods is returned 
     list(setmat = set_matrix, getmat = get_matrix,
          setinv = setinv_matrix,
          getinv = getinv_matrix)
@@ -42,7 +44,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## cacheSolve function takes the matrix object x created by makeCacheMatrix function as its input,
 ## returns a matrix inverse from cache if it exists, if it does not exist, source matrix definition 
-## is obtained via x$getmean object method call, then the inverted matrix is calculated by the solve 
+## is obtained via x$getmean object method call, then the matrix inverse is calculated by the solve 
 ## function(if the source matrix is invertible)  and its value is stored in the cache using x$setinv 
 ## object method call and finally its value is returned.   
 
