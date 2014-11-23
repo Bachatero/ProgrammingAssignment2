@@ -1,4 +1,6 @@
 ## R programming @ Coursera.org
+## 
+## 2014-11-23
 ##
 ## A matrix inverse of an invertible matrix is calculated and stored in memory for a subsequent 
 ## faster access to its value. 
