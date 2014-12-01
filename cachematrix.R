@@ -2,11 +2,14 @@
 ## R programming @ Coursera.org
 ## credits:  Roger D. Peng, PhD, Jeff Leek, PhD, Brian Caffo, PhD
 ##           Johns Hopkins Bloomberg School of Public Health
+##	     Peer n.1
 ## 
+## 2014-12-01 -- altered description of the assignment's goal
 ## 2014-11-23
 ##
-## A matrix inverse of an invertible matrix is calculated and stored in memory for a subsequent 
-## faster access to its value. 
+## On the whole, a matrix object is created, a matrix inverse of an invertible matrix is calculated 
+## and stored in memory for a subsequent faster access to its value. Please, see below for detailed 
+## description of each function. 
 ##
 ## Usage, e.g.:
 ## 
